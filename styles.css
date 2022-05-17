@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light');
+
+.font_meie_script {
+    font-family: 'Meie Script', cursive;
+    font-size: xx-large;
+    color: aqua;
+}
+
+.font_shadows_into_light {
+    font-family: 'Shadows Into Light', cursive;
+    color: yellow;
+}
+
+.font_shadows_into_light2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xx-large;
+    color: aqua;
+}
+
+.font_shadows_into_light3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xx-large;
+    color: wheat;
+}
+
+
+.font_meie_script2 {
+    font-family: 'Meie Script', cursive;
+    color: yellow;
+}
+.carousel {
+    height:400px; 
+    width: 100%; 
+    overflow: hidden;
+}
+.carousel-inner > .carousel-item > img { height: 400px; width: 640px; }

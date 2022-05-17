@@ -4,59 +4,89 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Lost</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html">Human Nature Connection</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Pages
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="../index.html">Home Page</a>
-                <a class="dropdown-item" href="lost.html">WANT TO GET LOST? Natur Park Südgelände</a>
-                <a class="dropdown-item" href="refreshment.html"> FANCY A REFRESHMENT? Public drinking fountains</a>
-                <a class="dropdown-item" href="plans.html">NO WEEKEND PLANS YET? Cycle Route</a>
-                <a class="dropdown-item" href="calm.html">WANT TO CALM DOWN?</a>
-                <a class="dropdown-item" href="soulfood.html">IN NEED FOR SOUL FOOD? At Warschauer Straße</a>
-                <a class="dropdown-item" href="citylife.html">TIRED OF CITY LIFE?</a>
-                <a class="dropdown-item" href="boared.html">GETTING BOARED?</a>
-                <a class="dropdown-item" href="nest.html">FLY THE NEST?</a>
-                <a class="dropdown-item" href="devil.html">SPEAKING OF THE DEVIL?</a>
-                <a class="dropdown-item" href="graveyard.html">Want to meet the graveyard night shift?</a>
-                <a class="dropdown-item" href="crowded.html">Feeling crowded?</a>
-                <a class="dropdown-item" href="party.html">WANT TO PARTY?</a>
-                <a class="dropdown-item" href="relax.html">WANT TO RELAX?</a>
-                <a class="dropdown-item" href="high.html">Want to get high?</a>
-                <a class="dropdown-item" href="go_out.html">Want to go out?</a>
-                <a class="dropdown-item" href="breakfree.html">Want to break free?</a>
-                
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link href="../styles.css" rel="stylesheet" type="text/css"/>
+    <title>lost</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() {$('#subnav').load("subnav.html");});</script>
+  </head>
+
+  <body style="background-color: black;">
+    <div id="subnav" class="sticky-top"></div>
+   
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 font_meie_script2 col-centered mt-5">
+            <h1>WANT TO GET LOST?	 Natur Park Südgelände</h1>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel" >
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="../images/lost1.jpeg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/lost2.jpeg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/lost3.jpeg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/lost4.jpeg" alt="Forth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="col-12 font_shadows_into_light2 col-centered mt-5">
+            <p>In the middle of Berlin lies a green and adventurous lost place, the <strong>Natur Park Südgelände</strong>. 
+              Railroad relics, city nature and even Art can be explored in Tempelhof-Schöneberg just south of the S-Bahn station S Südstern. 
+              Enjoy a sunny day with your kids, they’ll surely love to scramble around the old train tracks. Or just stroll around nature yourself, 
+              soaking up the scents and listening to birds chirping. Be enchanted at:
+              <a href="https://www.natur-park-suedgelaende.de">https://www.natur-park-suedgelaende.de</a>
+            </p>
+          </div>
+
+          <div class="col-12 font_shadows_into_light2 col-centered mt-5">
+            <p>Tip: If you still don’t have enough of nature and its wonders, go visit the <strong>Planetarium am Insulaner mit Wilhelm-Foerster-Sternwarte</strong> just a few minutes 
+              walk away and let the stars carry you to faraway places: <a href="https://www.planetarium.berlin">https://www.planetarium.berlin</a>
+              
+            </p>
+          </div>
+
+          <div class="col-12 font_shadows_into_light3 col-centered mt-5">
+            <p>Mitten in Berlin liegt ein grüner und abenteuerlicher Ort, der <strong>Natur Park Südgelände</strong>. Eisenbahnrelikte, Stadtnatur und 
+              sogar Kunst können in Tempelhof-Schöneberg südlich des S-Bahnhofs S Südstern erkundet werden. 
+              Genießen Sie einen sonnigen Tag mit Ihren Kindern, sie werden es sicher lieben, auf den alten Bahngleisen herumzukrabbeln. 
+              Oder schlendern Sie einfach selbst durch die Natur, nehmen Sie die Düfte auf und lauschen Sie dem Zwitschern der Vögel. Lassen Sie sich verzaubern:
+              <a href="https://www.natur-park-suedgelaende.de">https://www.natur-park-suedgelaende.de</a>             
+            </p>
+          </div>
+
+          <div class="col-12 font_shadows_into_light3 col-centered mt-5">
+            <p>Tipp: Wenn Sie noch nicht genug von der Natur und ihren Wundern haben, besuchen Sie das Planetarium am Insulaner mit Wilhelm-Foerster-Sternwarte nur 
+              wenige Gehminuten entfernt und lassen Sie sich von den Sternen in ferne Länder entführen: <a href="https://www.planetarium.berlin">https://www.planetarium.berlin</a>
+            </p>
+          </div>
+
+      </div>
+    </div>
+
+
   </body>
 </html>
