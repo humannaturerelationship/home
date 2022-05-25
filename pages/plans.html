@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../styles.css" rel="stylesheet" type="text/css"/>
     <title>plans</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -13,12 +14,64 @@
     <script>$(document).ready(function() {$('#subnav').load("subnav.html");});</script>
   </head>
 
-  <body style="background-color: black;">
+  <body>
     <div id="subnav" class="sticky-top"></div>
    
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 titlefont col-centered mt-1">
+            <h1>NO WEEKEND PLANS YET? Cycle Route</h1>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel" data-touch="true">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="../images/refreshment1.jpeg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/refreshment2.jpeg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../images/refreshment3.jpeg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
 
+          <div class="col-12 col-centered mt-1 engfont">
+            <p>So, it's the weekend and you want to get away? Best thing about it, you can do so without contributing to the Ecological Footprint.
+              Just grab your bike and cycle along the <strong>Berlin-Spandauer-Schifffahrtskanal</strong>. The bike tour starts at the center of Berlin (S Hauptbahnhof) and leads alongside the canal. 
+              With no cars along almost all of the route and the water by your side, this is a bike tour within the city offering nature and enjoyment. 
+              If you’re lucky, you can even see people playing ball sports on the water in their Kajaks and have kids overing self-made Crêpes and home-made lemonade along the way.
+              You can even cycle the way back. This time through the city (Charlottenburg), along the Spree and then through Tiergarten back to where you started.
+              <a href="https://www.tip-berlin.de/ausfluege/fahrrad/radtour-nach-spandau">https://www.tip-berlin.de/ausfluege/fahrrad/radtour-nach-spandau</a> 
+              
+              
+            </p>
+          </div>
 
-
-
+          <div class="col-12 col-centered mt-3 defont">
+            <p>Es ist Wochenende und du willst wegfahren? Das Beste daran ist, dass du das tun können, ohne zum ökologischen Fußabdruck beizutragen. 
+              Schnapp dir einfach dein Fahrrad und radel entlang des <strong>Berlin-Spandauer-Schifffahrtskanals</strong>! Die Radtour beginnt im Zentrum Berlins (S Hauptbahnhof) und führt entlang des Kanals. 
+              Fast die gesamte Strecke ist autofrei und das Wasser liegt direkt vor der Nase - eine Fahrradtour in der Stadt, die Natur und Genuss bietet. Wenn du Glück hast, 
+              siehst du sogar Leute seen, die mit ihren Kajaks auf dem Wasser Ballsportarten betreiben, und Kinder, die unterwegs selbstgemachte Crêpes und hausgemachte Limonade essen.
+              Auch den Rückweg kannst du mit dem Fahrrad antreten. Diesmal durch die Stadt (Charlottenburg), entlang der Spree und dann durch den Tiergarten zurück zum Ausgangspunkt.
+              <a href="https://www.tip-berlin.de/ausfluege/fahrrad/radtour-nach-spandau/">https://www.tip-berlin.de/ausfluege/fahrrad/radtour-nach-spandau/</a>                                     
+            </p>
+          </div>
+      </div>
+    </div>
   </body>
 </html>
+

@@ -1,36 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light');
 
-.font_meie_script {
+body {
+    background-color: #dbddf1;
+}
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 5px 30px 80px 30px;
+    
+}
+
+
+.gallery img{
+    
+    display:block;
+	background-color: #ffffff;
+	width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+.singlepic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singlepic img{
+    display:block;
+	background-color: #ffffff;
+	
+    margin-bottom: 20px;
+    padding: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+.card {
+    background-color: #dbddf1;
+}
+
+.titlefont {
+    font-family: 'Shadows Into Light', cursive;
+    font-size:x-large;
+    color: darkgreen;
+    text-align: center;
+}
+
+.subtitlefont {
     font-family: 'Meie Script', cursive;
-    font-size: xx-large;
-    color: aqua;
+    font-size:large;
+    color: green;
+    text-align: center;
 }
 
-.font_shadows_into_light {
-    font-family: 'Shadows Into Light', cursive;
-    color: yellow;
+.engfont {
+    font-family: 'sans-serif';
+    color:black;
 }
 
-.font_shadows_into_light2 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: xx-large;
-    color: aqua;
+.defont {
+    font-family: 'sans-serif';
+    color:#303030;
 }
 
-.font_shadows_into_light3 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: xx-large;
-    color: wheat;
-}
-
-
-.font_meie_script2 {
-    font-family: 'Meie Script', cursive;
-    color: yellow;
-}
-.carousel {
-    height:400px; 
-    width: 100%; 
-    overflow: hidden;
-}
-.carousel-inner > .carousel-item > img { height: 400px; width: 640px; }
